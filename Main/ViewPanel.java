@@ -58,6 +58,14 @@ public class ViewPanel extends javax.swing.JPanel {
 
         formLabel5.setText("Age");
 
+        fName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameActionPerformed(evt);
+            }
+        });
+
+        lName.setText("Emmanuel");
+
         message.setColumns(20);
         message.setRows(5);
         jScrollPane1.setViewportView(message);
@@ -134,6 +142,10 @@ public class ViewPanel extends javax.swing.JPanel {
                         .addGap(35, 35, 35))))
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void fNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
